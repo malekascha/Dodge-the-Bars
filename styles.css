@@ -1,0 +1,26 @@
+#player{
+	position:absolute;
+	/*margin: 0 auto;*/
+	background-color:black;
+	height:30px;
+	width:30px;
+}
+#box{
+	position:absolute;
+	/*top:50%;*/
+	left:50%;
+	height:400px;
+	width:600px;
+	margin: 0 0 0 -300px;
+	border:solid red 5px;
+}
+.enemy{
+	height:10px;
+	width:30px;
+	background-color:green;
+	position:absolute;
+}
+#score{
+	position: absolute;
+	top:110%;
+}
